@@ -1,18 +1,17 @@
-import Contato from './Componentes/Navlateral/Contato/Contato'
+import { Outlet } from 'react-router-dom' 
 import Footer from './Componentes/Navlateral/Footer/Footer'
 import Navlateral from './Componentes/Navlateral/Navlateral'
-import Principal from './Componentes/Navlateral/Principal/Principal'
-import Projetos from './Componentes/Navlateral/Projetos/Projetos'
-import Sobre from './Componentes/Navlateral/Sobre/Sobre'
 
 function App() {
   return (
     <>
+    
+    <h1>Hello, Bootstrap and Vite!</h1>
+      <button class="btn btn-primary">Primary button</button>
       <Navlateral/>
-      <Principal/>
-      <Sobre/>
-      <Projetos/>
-      <Contato/>
+      
+      <Outlet/>
+
       <Footer/>
     </>
   )

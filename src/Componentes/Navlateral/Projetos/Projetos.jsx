@@ -2,7 +2,7 @@ import ProjetoItem from "../ProjetoItem/ProjetoItem"
 import icrImg from "/src/assets/icr-img.jpg"
 import airbnbImg from "/src/assets/airbnb.png"
 
-const Projetos = () => {
+function Projetos () {
     return(
       <div id='projeto' className="max-w-[1040] m-auto md:pl-20 p-4 py-16">
         <h1 className="text-4xl font-bold text-center text-[black]">Projetos</h1>

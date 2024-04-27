@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai'
 import {BsPerson } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 
 
@@ -51,22 +52,26 @@ const Navlateral = () => {
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col '>
-                    <a href="#main" className=' flex items-center gap-5 justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
-                        <AiOutlineHome size={20} className=''/>
-                        <h1>Home</h1>
-                    </a>
-                    <a href="#sobre" className='  flex items-center gap-5 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
-                        <BsPerson size={20} className=''/>
-                        <h1>Sobre</h1>
-                    </a>
-                    <a href="#projeto" className='  flex items-center gap-5 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
-                        <AiOutlineProject size={20} className=''/>
-                        <h1>Projetos</h1>
-                    </a>
-                    <a href="#contato" className='  flex items-center gap-5 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
-                        <AiOutlineMail size={20} className=''/>
-                        <h1>Contato</h1>
-                    </a>
+                    <Link to='/'>
+                        <a href="#main" className=' flex items-center gap-5 justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
+                            <AiOutlineHome size={20} className=''/>
+                            <h1>Home</h1>
+                        </a>
+                    </Link>
+                    
+                    <Link to='/Projetos'>     
+                        <a href="#" className='  flex items-center gap-5 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
+                            <BsPerson size={20} className=''/>
+                            <h1>Sobre</h1>
+                        </a>
+                    </Link>
+                    
+                    <Link to='/Contato'>
+                        <a href="#" className='  flex items-center gap-5 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-90 ease-in duration-300 '>
+                            <AiOutlineMail size={20} className=''/>
+                            <h1>Contato</h1>
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>
