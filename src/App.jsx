@@ -5,9 +5,6 @@ import Navlateral from './Componentes/Navlateral/Navlateral'
 function App() {
   return (
     <>
-    
-    <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
       <Navlateral/>
       
       <Outlet/>
