@@ -1,5 +1,11 @@
 
 function Contato () {
+
+    const enviarFurmulario = (evento) => {
+        evento.preventDefault()
+        console.log('Formulário enviado')
+    }
+
     return(
         <div id='contato' className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 ">
             <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">Contato</h1>
@@ -26,7 +32,7 @@ function Contato () {
                     <label className="uppercase py-2 text-sm">Mensagem</label>
                     <textarea className="border-2 rounded-lg p-3 flex border-gray-400" rows='10' name='mensagem' />
                 </div>
-                <button className="border-none py-4 px-2 bg-[#001b5e] text-white text-lg mt-4 w-full rounded-lg ">Enviar mensagem</button>
+                <button onClick={enviarFurmulario} className="border-none py-4 px-2 bg-[#001b5e] text-white text-lg mt-4 w-full rounded-lg ">Enviar mensagem</button>
             </form>
         </div>
     );
