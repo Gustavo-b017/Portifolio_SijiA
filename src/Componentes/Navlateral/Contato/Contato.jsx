@@ -13,7 +13,7 @@ function Contato () {
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                     <div className="flex flex-col">
                         <label className="uppercase py-2 text-sm">Nome</label>
-                        <input className="border-2 rounded-lg p-3 flex border-gray-400" type="text" name="nome" />
+                        <input onClick={enviarFurmulario}  className="border-2 rounded-lg p-3 flex border-gray-400" type="text" name="nome" />
                     </div>
                     <div className="flex flex-col"> 
                         <label className="uppercase py-2 text-sm">Telefone</label>
