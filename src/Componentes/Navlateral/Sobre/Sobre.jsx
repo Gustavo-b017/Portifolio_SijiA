@@ -8,7 +8,7 @@ const Sobre = () => {
                 idade: 21 + ' anos',
                 nome: 'Felipe Ferreira',
                 instituicao:'FIAP',
-                detalhes: 'Sou entusiasta da tecnologia, gosto de trabalhar com a criatividade.'
+                detalhes: 'Sou fascinado pelo universo da tecnologia. O que eu mais gosto é a área de Front-End Development. Trabalhar com a criatividade, diversidade de pensamente e em equipe faz parte do meu perfil profissional.'
             },
             {
                 idade: 20 + ' anos',
