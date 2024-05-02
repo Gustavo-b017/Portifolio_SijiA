@@ -10,7 +10,7 @@ const SobreItens = ({idade,nome,instituicao,detalhes}) => {
                     <span className=" text-stone-500">{instituicao}</span>
                   
                 </p>
-                <p className="my-2 text-base ">{detalhes}</p>
+                <p className="my-2 text-base w-[500px] ">{detalhes}</p>
 
             
             </li>

@@ -8,19 +8,19 @@ const Sobre = () => {
                 idade: 21 + ' anos',
                 nome: 'Felipe Ferreira',
                 instituicao:'FIAP',
-                detalhes: 'Sou fascinado pelo universo da tecnologia. O que eu mais gosto é a área de Front-End Development. Trabalhar com a criatividade, diversidade de pensamente e em equipe faz parte do meu perfil profissional.'
+                detalhes: '  Sou fascinado pelo universo da tecnologia. O que eu mais gosto é a área de Front-End Development. Trabalhar com a criatividade, diversidade de pensamento e em equipe faz parte do meu perfil profissional.'
             },
             {
                 idade: 20 + ' anos',
                 nome: 'Gilson Dias',
                 instituicao:'FIAP',
-                detalhes: 'Sou entusiasta da tecnologia, gosto de trabalhar com a criatividade.'
+                detalhes: '  Estudante de engenharia de software na FIAP. Amo tecnologia, principalmente aquelas que causam impacto por serem diferentes e inusitadas. Sou organizado e dedicado no que proponho fazer, além de responsável e empático.'
             },
             {
                 idade: 18 + ' anos',
                 nome: 'Gustavo Bezerra',
                 instituicao:'FIAP',
-                detalhes: 'Sou entusiasta da tecnologia, gosto de trabalhar com a criatividade.'
+                detalhes: '  Estudante de engenharia de software na FIAP. Entusiasta da tecnologia, amo e gosto de aprender tudo relacionado a tecnologia. Além disso, sou dedicado em tudo em que faço, principalmente ligado ao que amo!'
             },
 
         ]

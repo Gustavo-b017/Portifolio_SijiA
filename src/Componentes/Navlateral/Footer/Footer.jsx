@@ -5,15 +5,21 @@ const Footer = () => {
             <ul className="flex items-center justify-center gap-5">
                 <li className="flex items-start justify-space-between gap-2" >
                     <a className="text-white cursor-pointer text-lg">Felipe Ferreira</a>
+                    <a href="https://github.com/Defelopers">
                     <img className="w-[35px] rounded-50 cursor-pointer" src='/src/assets/social.png' alt="" />
+                    </a>
                 </li>
                 <li className="flex items-start justify-space-between gap-2">
                     <a className="text-white cursor-pointer text-lg">Gilson Dias</a>
+                    <a href="https://github.com/G1lsJn">
                     <img className="w-[35px] rounded-50" src='/src/assets/social.png' alt="" />
+                    </a>
                 </li>
                 <li  className="flex items-start justify-space-between gap-2">
                     <a className="text-white cursor-pointer text-lg">Gustavo Bezerra</a>
+                    <a href="https://github.com/Gustavo-b017">
                     <img className="w-[35px] rounded-50" src='/src/assets/social.png' alt="" />
+                    </a>
                 </li>
             </ul>
 
